@@ -11,14 +11,14 @@ class Escola:
         self.mostrarResultado()
 
     def mostrarNotas(self):
-        self.listarNotas('nota')
+        self.listarNotas()
         self.mostrarMedia()
 
     def listarNotas(self,  nota):
         self.notas = []
         self.notas.append(self.nota)
         self.nota.split(",")
-        for notas in nota:
+        for notas in self.notas:
             if notas['nota'] == nota:
                 print(f"As notas são: {nota}")
 
