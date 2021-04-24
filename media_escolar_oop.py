@@ -1,17 +1,10 @@
 class Escola:
 
-    def mostrarResultado(self):
-        self.mostrarNotas()
-        self.mostrarResultado()
-
     def __init__(self, nota, nomeAluno, media):
         self.nota = nota
         self.nomeAluno = nomeAluno
         self.media = media
-        self.mostrarResultado()
-
-    def mostrarNotas(self):
-        self.listarNotas()
+        self.listarNotas(5)
         self.mostrarMedia()
 
     def listarNotas(self,  nota):
