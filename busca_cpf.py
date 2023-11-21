@@ -5,7 +5,7 @@ def busca_cpf():
     
     while True: 
         dados_cpf = {
-            'Lucas': '012.525.844-58',
+            'Lucas': '013.528.833-68',
             'Marcelo': '030.343.343-25',
             'Tayse': '324.545.454-45'
         }
